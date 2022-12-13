@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterspeed.Commercetools.Integration", "Enterspeed.Commercetools.Integration", "{09E9217E-3C5F-4C48-84D3-5FF22B116426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{95DC360F-DBF4-479D-900C-9D13F66998C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Commercetools.Integration", "src\Enterspeed.Commercetools.Integration\Enterspeed.Commercetools.Integration.csproj", "{C4D4C1EF-21A9-4325-9BA6-5709D38EAA96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Commercetools.Integration.AzureFunctions", "samples\Enterspeed.Commercetools.Integration.AzureFunctions\Enterspeed.Commercetools.Integration.AzureFunctions.csproj", "{9AF00E3A-B761-46ED-B756-35DC5A8E311A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4D4C1EF-21A9-4325-9BA6-5709D38EAA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D4C1EF-21A9-4325-9BA6-5709D38EAA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D4C1EF-21A9-4325-9BA6-5709D38EAA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D4C1EF-21A9-4325-9BA6-5709D38EAA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF00E3A-B761-46ED-B756-35DC5A8E311A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF00E3A-B761-46ED-B756-35DC5A8E311A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF00E3A-B761-46ED-B756-35DC5A8E311A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF00E3A-B761-46ED-B756-35DC5A8E311A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4D4C1EF-21A9-4325-9BA6-5709D38EAA96} = {09E9217E-3C5F-4C48-84D3-5FF22B116426}
+		{9AF00E3A-B761-46ED-B756-35DC5A8E311A} = {95DC360F-DBF4-479D-900C-9D13F66998C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D387F3B-711C-43AE-8CB2-DBFF422FA7E7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ASPNETCORE_ENVIRONMENT": "Development",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "ServiceBusConnectionString": ""
+  },
+  "Enterspeed": {
+    "ApiKey": "",
+    "BaseUrl": ""
+  },
+  "CommercetoolsApi": {
+    "ProjectKey": "enterspeed-ct-integration",
+    "ClientId": "",
+    "ClientSecret": "",
+    "AuthorizationBaseAddress": "https://auth.europe-west1.gcp.commercetools.com/",
+    "ApiBaseAddress": "https://api.europe-west1.gcp.commercetools.com/"
+  }
+}
