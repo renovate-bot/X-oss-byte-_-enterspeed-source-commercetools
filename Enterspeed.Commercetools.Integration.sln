@@ -11,6 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Commercetools.In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Commercetools.Integration.AzureFunctions", "samples\Enterspeed.Commercetools.Integration.AzureFunctions\Enterspeed.Commercetools.Integration.AzureFunctions.csproj", "{9AF00E3A-B761-46ED-B756-35DC5A8E311A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{60BEF277-0135-433E-8D3C-67D26A452E02}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

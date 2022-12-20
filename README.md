@@ -288,4 +288,4 @@ public class CategoryImportFunction
 
 ## License
 
-> To be written.
+Enterspeed Commercetools Source is [MIT licensed](./LICENSE)
