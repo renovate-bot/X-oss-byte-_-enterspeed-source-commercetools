@@ -284,7 +284,11 @@ public class CategoryImportFunction
 
 ## Contributing
 
-> To be written.
+Pull requests are very welcome.  
+Please fork this repository and make a PR when you are ready.  
+
+Otherwise you are welcome to open an Issue in our [issue tracker](https://github.com/enterspeedhq/enterspeed-source-commercetools/issues).
+
 
 ## License
 
