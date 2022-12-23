@@ -88,7 +88,7 @@ stages:
             displayName: Dotnet restore
             inputs:
               command: restore
-              projects: "./Enterspeed.Commercetools.Integration"
+              projects: "./Enterspeed.Commercetools.Integration.sln"
               feedsToUse: config
               nugetConfigPath: "$(System.DefaultWorkingDirectory)/NuGet.Config"
 
@@ -97,7 +97,7 @@ stages:
             displayName: Dotnet build
             inputs:
               command: build
-              projects: "Enterspeed.Commercetools.Integration"
+              projects: "Enterspeed.Commercetools.Integration.sln"
               arguments: "--no-restore --configuration Release /p:Version=$(semVersion)"
 
           # Pack NuGet
