@@ -282,6 +282,11 @@ public class CategoryImportFunction
 }
 ```
 
+## Changelog
+
+See new features, fixes and breaking changes in the [changelog](./CHANGELOG.md).
+
+
 ## Contributing
 
 Pull requests are very welcome.  
